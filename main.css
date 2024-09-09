@@ -1,0 +1,68 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+html, body, #app {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    width: 100%;
+  }
+}
+
+#log {
+  flex-grow: 1;
+  padding: .5em;
+  /* overflow-x: scroll; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#input {
+  padding: .5em;
+}
+
+#input .input {
+  width: 100%;
+  padding: .5em;
+  border: solid 1px grey;
+  background-color: transparent;
+  color: #fff;
+}
+
+.log-entry {
+  border-bottom: solid 1px grey;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.log-entry small {
+  color: grey;
+}
+
+.log-entry .entry-text {
+  white-space: pre-wrap;
+}
