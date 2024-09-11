@@ -5,3 +5,6 @@ Personal take on the note taking app.
 - Keyboard centric
 - As close to plain text as possible
 - Produces timeline with timestamps for each entry
+
+## Tu Du
+- Add server logic
