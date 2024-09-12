@@ -6,4 +6,3 @@ app.use(async ctx => {
 const server = app.listen(3000, () => {
   console.log('Logr server listening on port 3000')
 });
-
