@@ -1,0 +1,15 @@
+{
+  "name": "logr-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start server.js --watch",
+    "stop": "pm2 stop server.js --watch"
+  },
+  "dependencies": {
+    "koa": "^2.15.3"
+  },
+  "devDependencies": {
+    "pm2": "^5.4.2"
+  }
+}

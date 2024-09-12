@@ -7,4 +7,3 @@ Personal take on the note taking app.
 - Produces timeline with timestamps for each entry
 
 ## Tu Du
-- Add server logic
